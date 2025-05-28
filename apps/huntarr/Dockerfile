@@ -49,4 +49,6 @@ USER nobody:nogroup
 WORKDIR /config
 VOLUME ["/config"]
 
+EXPOSE 9705
+
 ENTRYPOINT ["/usr/bin/catatonit", "--", "/entrypoint.sh"]

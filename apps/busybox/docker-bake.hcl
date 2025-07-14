@@ -1,16 +1,16 @@
 target "docker-metadata-action" {}
 
 variable "APP" {
-  default = "readarr"
+  default = "busybox"
 }
 
 variable "VERSION" {
-  // renovate: datasource=custom.servarr-develop depName=readarr versioning=loose
-  default = "0.4.16.2793"
+  // renovate: datasource=docker depName=docker.io/library/busybox
+  default = "1.37.0"
 }
 
 variable "SOURCE" {
-  default = "https://github.com/Readarr/Readarr"
+  default = "https://www.busybox.net"
 }
 
 group "default" {

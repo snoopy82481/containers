@@ -1,0 +1,13 @@
+---
+# yaml-language-server: $schema=https://raw.githubusercontent.com/goss-org/goss/master/docs/schema.yaml
+process:
+  byparr:
+    running: true
+port:
+  tcp6:8191:
+    listening: true
+http:
+  http://localhost:8191:
+    status: 200
+    body:
+      - "ByParr is running"

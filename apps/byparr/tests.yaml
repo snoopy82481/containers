@@ -1,7 +1,7 @@
 ---
 # yaml-language-server: $schema=https://raw.githubusercontent.com/goss-org/goss/master/docs/schema.yaml
 process:
-  python:
+  uv:
     running: true
 port:
   tcp:8191:
